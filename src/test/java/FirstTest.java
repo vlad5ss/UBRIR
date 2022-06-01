@@ -16,7 +16,7 @@ public class FirstTest implements Guiifds {
     @Test
     public void firstTitleTest() {
         firstPageSteps.waitFirstPageLoad();
-        assertThat(getTitleBasePage()).as("WElcome title").contains(WELCOME_TITLE);
+        assertThat(getTitleBasePage()).as("Welcome title").contains(WELCOME_TITLE);
     }
 
     @Test

@@ -23,10 +23,13 @@ public class Buttons {
 
     public void buttonClose(WebElement webElement) {
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-//        WebElement searchButton = new WebDriverWait(driver, 15)
-//                .until(ExpectedConditions.elementToBeClickable(webElement));
         webElement.click();
 
+    }
+
+        public void waitFirstPageLoad(WebElement element) {
+        new WebDriverWait(driver, 20)
+                .until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public void clickButtonBackOnKeyboard() {

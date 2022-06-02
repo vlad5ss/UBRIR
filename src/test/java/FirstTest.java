@@ -1,26 +1,24 @@
 import core.InitialDriver;
-import interfaces.Guiifds;
 import org.testng.annotations.Test;
-import pages.Advertisements;
+import pages.HomePage;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static pages.HomePage.getTitleBasePage;
 
-import static steps.FirstPageSteps.getTitleBasePage;
 
+public class FirstTest {
 
-public class FirstTest implements Guiifds {
-
-    Advertisements advertisements = new Advertisements(InitialDriver.getDriver());
+    HomePage homePage = new HomePage(InitialDriver.getDriver());
     private String WELCOME_TITLE = "Приветствуем";
 
     @Test
     public void firstTitleTest() {
-        firstPageSteps.waitFirstPageLoad();
+        homePage.waitLoad();
         assertThat(getTitleBasePage()).as("Welcome title").contains(WELCOME_TITLE);
     }
 
     @Test
     public void logintTest() {
-        firstPageSteps.login();
+        homePage.login();
     }
 }

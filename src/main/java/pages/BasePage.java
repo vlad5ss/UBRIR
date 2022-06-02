@@ -1,5 +1,8 @@
 package pages;
 
+import elements.Buttons;
+import elements.Elements;
+import elements.Screen;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -9,19 +12,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
     private AndroidDriver driver;
-
-    @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_title")
-    public static WebElement TITLE;
-    @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_login")
-    public static WebElement LOGIN;
-    @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_become_client")
-    private WebElement CLIENT;
-    @AndroidFindBy(id = "cb.ibank:id/include_department_addresses")
-    private WebElement ADRESS;
-    @AndroidFindBy(xpath = "cb.ibank:id/include_currency_rates")
-    private WebElement RATES;
+    protected Buttons buttons;
+    protected Screen screen;
+    protected Elements elements;
 
     public BasePage(AndroidDriver driver) {
+        buttons = new Buttons();
+        screen = new Screen();
+        elements = new Elements();
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }

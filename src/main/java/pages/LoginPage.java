@@ -8,17 +8,17 @@ public class LoginPage extends BasePage {
     private AndroidDriver driver;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По Логину\"]")
-    public static WebElement TAB_LOGIN;
+    public static WebElement tabLogin;
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По карте\"]")
-    public static WebElement TAB_MAPS;
+    public static WebElement tabMaps;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_login_login_title")
-    private WebElement TITLE;
+    private WebElement title;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_login_button_forgot_login_or_password")
-    private WebElement FORGOT_PASSWORD;
+    private WebElement forgotPassword;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_login_button_login")
-    private WebElement SIGN_IN;
+    private WebElement signIn;
     @AndroidFindBy(id = "android.widget.ImageButton[@content-desc=\"Navigate up\"]")
-    private WebElement BACK;
+    private WebElement back;
     public LoginPage(AndroidDriver driver) {
         super(driver);
     }

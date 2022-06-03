@@ -28,36 +28,43 @@ public class HomePage extends BasePage {
 
     @Step("Sign in")
     public void login() {
+        log.info("click login");
         buttons.clickElement(loginBtn);
     }
 
     @Step("Wait load")
     public void waitLoad() {
+        log.info("wait for page load");
         buttons.waitFirstPageLoad(loginBtn);
     }
 
     @Step("login button is displayed")
     public void loginButtonIsDisplayed() {
+        log.info("login is displayed");
         buttons.isElementAvailable(loginBtn);
     }
 
     @Step("client button is displayed")
     public void clientButtonIsDisplayed() {
+        log.info("client is displayed");
         buttons.isElementAvailable(client);
     }
 
     @Step("Click clients")
     public void clickClient() {
+        log.info("click clients");
         buttons.clickElement(client);
     }
 
     @Step("client button is displayed")
     public void locationButtonIsDisplayed() {
+        log.info("location is displayed");
         buttons.isElementAvailable(locationBtn);
     }
 
     @Step("Click clients")
     public void clickLocation() {
+        log.info("click location");
         buttons.clickElement(locationBtn);
     }
 

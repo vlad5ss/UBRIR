@@ -2,10 +2,19 @@ package elements;
 
 import core.InitialDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import static com.sun.webkit.CursorManager.WAIT;
+import static org.openqa.selenium.remote.ErrorCodes.TIMEOUT;
 
 
 public class Elements {
@@ -55,5 +64,15 @@ public class Elements {
         WebElement searchField = new WebDriverWait(driver, 10)
                 .until(ExpectedConditions.elementToBeClickable(webElement));
         searchField.sendKeys(key);
+    }
+
+    public void WaitVisibilityOfElement(AndroidElement element) {
+        driver.manage().timeouts().implicitlyWait(WAIT, TimeUnit.SECONDS);
+        FluentWait wait = new FluentWait(driver);
+        wait.withTimeout(Duration.ofSeconds(TIMEOUT));
+        wait.pollingEvery(Duration.ofMillis(30));
+        wait.ignoring(NoSuchElementException.class);
+        wait.until(ExpectedConditions.visibilityOf(element));
+
     }
 }

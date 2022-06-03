@@ -2,6 +2,7 @@ package pages;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
@@ -10,7 +11,7 @@ public class LoginPage extends BasePage {
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По Логину\"]")
     public static WebElement tabLogin;
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По карте\"]")
-    public static WebElement tabMaps;
+    public static WebElement tabCart;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_login_login_title")
     private WebElement title;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_login_button_forgot_login_or_password")
@@ -19,6 +20,11 @@ public class LoginPage extends BasePage {
     private WebElement signIn;
     @AndroidFindBy(id = "android.widget.ImageButton[@content-desc=\"Navigate up\"]")
     private WebElement back;
+
+    @Step("Click tab cart")
+    public void cickTabCart() {
+        buttons.clickElement(tabCart);
+    }
     public LoginPage(AndroidDriver driver) {
         super(driver);
     }

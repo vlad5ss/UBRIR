@@ -20,10 +20,5 @@ public class FirstTest {
     public void logintTest() {
         homePage.login();
     }
-
-    @Test
-    public void mapTest() {
-
-        homePage.clickLocation();
-    }
 }
+

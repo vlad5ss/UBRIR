@@ -4,6 +4,8 @@ import pages.CreditCartPage;
 import pages.HomePage;
 import pages.LoginPage;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public class CreditCartTest {
     HomePage homePage = new HomePage(InitialDriver.getDriver());
     LoginPage loginPage = new LoginPage(InitialDriver.getDriver());
@@ -14,5 +16,6 @@ public class CreditCartTest {
         homePage.waitLoad();
         homePage.login();
         loginPage.cickTabCart();
+        assertThat(creditCartPage.titleCartIsDisplayed()).as("title cart is dis").isTrue();
     }
 }

@@ -61,4 +61,29 @@ public class Screen {
             e.printStackTrace();
         }
     }
+
+    public void scroll(String locator, int swipes) {
+        int swipesAmount = 0;
+        while (swipesAmount < swipes) {
+            try {
+                driver.findElementByAndroidUIAutomator(locator);
+                swipesAmount++;
+            } catch (Exception e) {
+                swipesAmount++;
+            }
+        }
+    }
+
+    public void scrollDown(int swipes) {
+        String locator = "new UiScrollable(new UiSelector().resourceIdMatches(\".*ontainer.*\")).flingToEnd(1)";
+        scroll(locator, swipes);
+    }
+
+    public void swipeVertical(float percentage) {
+        Dimension windowSize = driver.manage().window().getSize();
+        TouchAction ta = new TouchAction(driver);
+        ta.press(PointOption.point(207, 582)).moveTo(PointOption.point(8,
+                -360)).release().perform();
+    }
+
 }

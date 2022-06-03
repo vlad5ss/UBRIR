@@ -4,50 +4,61 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 public class HomePage extends BasePage {
 
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_title")
-    public static WebElement TITLE;
+    private WebElement titleTxt;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_login")
-    public static WebElement LOGIN;
+    private  WebElement loginBtn;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_become_client")
-    private WebElement CLIENT;
+    private WebElement client;
     @AndroidFindBy(id = "cb.ibank:id/include_department_addresses")
-    private WebElement ADRESS;
+    private WebElement locationBtn;
     @AndroidFindBy(xpath = "cb.ibank:id/include_currency_rates")
-    private WebElement RATES;
+    private WebElement ratesBtn;
 
     public HomePage(AndroidDriver driver) {
         super(driver);
     }
 
-    public static String getTitleBasePage() {
-        return TITLE.getText();
+    public  String getTitleBasePage() {
+        return elements.getTextFromElement(titleTxt);
     }
 
     @Step("Sign in")
     public void login() {
-        buttons.searchAndClickButtonBy(LOGIN);
+        buttons.clickElement(loginBtn);
     }
 
     @Step("Wait load")
     public void waitLoad() {
-        buttons.waitFirstPageLoad(LOGIN);
+        buttons.waitFirstPageLoad(loginBtn);
     }
 
-//    public void waitFirstPageLoad() {
-//        new WebDriverWait(driver, 20)
-//                .until(ExpectedConditions.elementToBeClickable(LOGIN));
-//    }
-//
-//    public void searchAndClickButtonBy(WebElement webElement) {
-//        WebElement searchButton = new WebDriverWait(driver, 15)
-//                .until(ExpectedConditions.elementToBeClickable(webElement));
-//        searchButton.click();
-//    }
+    @Step("login button is displayed")
+    public void loginButtonIsDisplayed() {
+        buttons.isElementAvailable(loginBtn);
+    }
+
+    @Step("client button is displayed")
+    public void clientButtonIsDisplayed() {
+        buttons.isElementAvailable(client);
+    }
+
+    @Step("Click clients")
+    public void clickClient() {
+        buttons.clickElement(client);
+    }
+
+    @Step("client button is displayed")
+    public void locationButtonIsDisplayed() {
+        buttons.isElementAvailable(locationBtn);
+    }
+
+    @Step("Click clients")
+    public void clickLocation() {
+        buttons.clickElement(locationBtn);
+    }
 
 }

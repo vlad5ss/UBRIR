@@ -3,7 +3,6 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static pages.HomePage.getTitleBasePage;
 
 
 public class FirstTest {
@@ -14,11 +13,17 @@ public class FirstTest {
     @Test
     public void firstTitleTest() {
         homePage.waitLoad();
-        assertThat(getTitleBasePage()).as("Welcome title").contains(WELCOME_TITLE);
+        assertThat(homePage.getTitleBasePage()).as("Welcome title").contains(WELCOME_TITLE);
     }
 
     @Test
     public void logintTest() {
         homePage.login();
+    }
+
+    @Test
+    public void mapTest() {
+
+        homePage.clickLocation();
     }
 }

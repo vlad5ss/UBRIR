@@ -1,20 +1,16 @@
 
-m
-java:S3008"PRename this field "LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·øùœ8Şœóú‘0
-M
-java:S1444"+Make this "public static TITLE" field final(ôç¯óùÿÿÿÿ8ì´“ú‘0
-l	java:S116"QRename this field "ADRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô”Ü%8¥”ğù‘0
-H
-java:S1444"+Make this "public static LOGIN" field final(·øùœ8Şœóú‘0
-J
-java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ
-E
-java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ
-r
-java:S3008"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôç¯óùÿÿÿÿ8ì´“ú‘0
-l	java:S116"PRename this field "RATES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­œ…Ê8Íñù‘0
-J
-java:S3740"/Provide the parametrized type for this generic.(°Äš’øÿÿÿÿ
-r	java:S116"QRename this field "CLIENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÆöıÿÿÿÿ8÷ïù‘0
+l
+java:S1104"OMake log a static final constant or non-public and provide accessors if needed.(¸¬ìÄ8ÔŸˆÇ’0
+Q
+java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ8ŸËè ’0
+i
+java:S1128"LRemove this unused import 'io.appium.java_client.pagefactory.AndroidFindBy'.(šÕâŸ8¨ÿ£¡’0
+]
+java:S1128
+";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8¨ÿ£¡’0
 t
-java:S1128"RRemove this unused import 'org.openqa.selenium.interactions.internal.MouseAction'.(„É£ışÿÿÿÿ8’‘õú‘0
+java:S1128"RRemove this unused import 'org.openqa.selenium.interactions.internal.MouseAction'.(„É£ışÿÿÿÿ8’‘õú‘0
+L
+java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ8ŸËè ’0
+Q
+java:S3740"/Provide the parametrized type for this generic.(°Äš’øÿÿÿÿ8¹šº¡’0

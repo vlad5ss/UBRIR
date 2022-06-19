@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
     private AndroidDriver driver;
-
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По Логину\"]")
     public static WebElement tabLogin;
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc=\"По карте\"]")

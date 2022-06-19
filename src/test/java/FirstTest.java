@@ -1,13 +1,11 @@
-import core.InitialDriver;
+import interfaces.Pagesss;
 import org.testng.annotations.Test;
-import pages.HomePage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class FirstTest {
+public class FirstTest implements Pagesss {
 
-    HomePage homePage = new HomePage(InitialDriver.getDriver());
     private String WELCOME_TITLE = "Приветствуем";
 
     @Test

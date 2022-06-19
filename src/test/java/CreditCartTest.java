@@ -1,15 +1,9 @@
-import core.InitialDriver;
+import interfaces.Pagesss;
 import org.testng.annotations.Test;
-import pages.CreditCartPage;
-import pages.HomePage;
-import pages.LoginPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CreditCartTest {
-    HomePage homePage = new HomePage(InitialDriver.getDriver());
-    LoginPage loginPage = new LoginPage(InitialDriver.getDriver());
-    CreditCartPage creditCartPage = new CreditCartPage(InitialDriver.getDriver());
+public class CreditCartTest implements Pagesss {
 
     @Test
     public void mapTest() {

@@ -1,12 +1,10 @@
 import core.InitialDriver;
+import interfaces.Pagesss;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.MapPage;
 
-public class MapTest {
-
-    HomePage homePage = new HomePage(InitialDriver.getDriver());
-    MapPage mapPage = new MapPage(InitialDriver.getDriver());
+public class MapTest implements Pagesss {
 
     @Test
     public void mapTest() {

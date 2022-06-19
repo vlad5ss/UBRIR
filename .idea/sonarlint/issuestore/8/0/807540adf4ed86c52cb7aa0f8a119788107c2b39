@@ -1,12 +1,0 @@
-
-t	java:S116"SRename this field "TAB_LIST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æº‰Ûúÿÿÿÿ8ıĞ¡ı‘0
-p
-java:S3008"SRename this field "TAB_MAPS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜİşÊ8œı‘0
-r	java:S116"VRename this field "OPEN_FILTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¬å­8ªá£ı‘0
-K
-java:S1444".Make this "public static TAB_MAPS" field final(ÜİşÊ8œı‘0
-p	java:S116"ORename this field "BACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Ü—äşÿÿÿÿ8œı‘0
-Q
-java:S1444"4Make this "public static TITLE_LOCATION" field final(Ç‡¸®8Æ¤ı‘0
-v
-java:S3008"YRename this field "TITLE_LOCATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç‡¸®8Æ¤ı‘0

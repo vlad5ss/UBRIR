@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 
 public class HomePage extends BasePage {
 
+    @AndroidFindBy(id = "cb.ibank:id/view_controller_demo_version")
+    public static WebElement demoVersion;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_title")
     private WebElement titleTxt;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_login")
@@ -30,6 +32,12 @@ public class HomePage extends BasePage {
     public void login() {
         log.info("click login");
         buttons.clickElement(loginBtn);
+    }
+
+    @Step("Demo click")
+    public void demoClick() {
+        log.info("democlick");
+        buttons.clickElement(demoVersion);
     }
 
     @Step("Wait load")

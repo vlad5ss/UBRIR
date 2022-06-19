@@ -1,0 +1,33 @@
+
+E
+java:S1444
+"*Make this "public static WAIT" field final(úÖð”ýÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(®Ÿ¨¸
+R
+java:S1444"7Make this "public static SLEEP_BEFORE_TEST" field final(ªÇç·ýÿÿÿÿ
+k
+java:S1104
+"PMake WAIT a static final constant or non-public and provide accessors if needed.(úÖð”ýÿÿÿÿ
+x
+java:S1104"]Make SLEEP_BEFORE_TEST a static final constant or non-public and provide accessors if needed.(ªÇç·ýÿÿÿÿ
+q
+java:S3008"VRename this field "POLLYNGWAIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›…Ÿ§ÿÿÿÿÿ
+w
+java:S3008"\Rename this field "SLEEP_BEFORE_TEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÇç·ýÿÿÿÿ
+H
+java:S1444"-Make this "public static TIMEOUT" field final(™ï¼¦ýÿÿÿÿ
+j
+java:S3008
+"ORename this field "WAIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÖð”ýÿÿÿÿ
+L
+java:S1444"1Make this "public static POLLYNGWAIT" field final(›…Ÿ§ÿÿÿÿÿ
+n
+java:S1104"SMake TIMEOUT a static final constant or non-public and provide accessors if needed.(™ï¼¦ýÿÿÿÿ
+r
+java:S1104"WMake POLLYNGWAIT a static final constant or non-public and provide accessors if needed.(›…Ÿ§ÿÿÿÿÿ
+m
+java:S3008"RRename this field "TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ï¼¦ýÿÿÿÿ
+‘
+java:S1845
+"vRename field "WAIT" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(úÖð”ýÿÿÿÿ

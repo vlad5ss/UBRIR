@@ -23,13 +23,23 @@ R
 -src/main/java/configs/DeviceCapabilities.java,6\d\6d728340219b4b84e84b99ec257e6f59d12a9642
 U
 %src/main/java/core/InitialDriver.java,5\a\5a80e59c5a8c12265d38aa030af6d1f5054d7ba3
-W
-'src/main/java/pages/Advertisements.java,9\6\96a87f084d0228759c0588c5242400eb4bef7170
 Q
 !src/main/java/pages/BasePage.java,e\2\e2e13e66e55a179dc9c969979a2c5c7949318f67
-S
-#src/main/java/pages/AdressPage.java,8\0\807540adf4ed86c52cb7aa0f8a119788107c2b39
 R
 "src/main/java/pages/RatesPage.java,2\a\2a642a8474a47137e819bf7e3ac9cb8be90a7ec1
 R
 "src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
+Q
+!src/main/java/utils/Timeouts.java,b\c\bc3236fb1dbc263e32b637b3368ff07bbad7b5ee
+U
+%src/main/java/interfaces/Pagesss.java,8\d\8da4e8d75b1a138fbc2c8c75bacee62128e58367
+J
+src/test/java/MapTest.java,0\a\0a33a8f924b2c7260958f4cbaa1a70f920dd6a93
+P
+ src/main/java/pages/MapPage.java,c\9\c9d34b81a4c0e78bcf1fee260422e44e1a67fe16
+Q
+!src/main/java/pages/HomePage.java,9\6\9655b2a35fae75d92697b79cda62632f93f33e6e
+W
+'src/main/java/pages/CreditCartPage.java,e\2\e2708d3eb76bac139618d441c41a37f529794f44
+Q
+!src/test/java/CreditCartTest.java,6\7\676fb68be4738a7a6399df193d0f6faece74f868

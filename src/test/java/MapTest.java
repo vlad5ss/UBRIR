@@ -1,8 +1,5 @@
-import core.InitialDriver;
 import interfaces.Pagesss;
-import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.MapPage;
+        import org.testng.annotations.Test;
 
 public class MapTest implements Pagesss {
 

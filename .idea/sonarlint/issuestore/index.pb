@@ -43,3 +43,11 @@ W
 'src/main/java/pages/CreditCartPage.java,e\2\e2708d3eb76bac139618d441c41a37f529794f44
 Q
 !src/test/java/CreditCartTest.java,6\7\676fb68be4738a7a6399df193d0f6faece74f868
+T
+$src/main/java/pages/FinancePage.java,7\7\7723d4e087e9aca06aa5d031d80f681e3fbab5ec
+V
+&src/main/java/pages/NewCreditPage.java,c\c\ccb35123975277acc6b3b2131c0d0dada340ee04
+U
+%src/main/java/pages/TransferPage.java,6\4\648bb69264bb88a87b0523ce3c072c9bc1654650
+O
+src/test/java/TransferTest.java,d\3\d3e998bf0d0360d6463366c848cc8543a81760ab

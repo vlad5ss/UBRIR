@@ -21,8 +21,9 @@ public class LoginPage extends BasePage {
     private WebElement back;
 
     @Step("Click tab cart")
-    public void cickTabCart() {
+    public LoginPage cickTabCart() {
         buttons.clickElement(tabCart);
+        return this;
     }
     public LoginPage(AndroidDriver driver) {
         super(driver);

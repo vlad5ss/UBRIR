@@ -5,9 +5,7 @@ public class MapTest implements Pagesss {
 
     @Test
     public void mapTest() {
-        homePage.waitLoad();
-        homePage.clickLocation();
-        mapPage.allowPermessions();
-        mapPage.scrollDown();
+        homePage.waitLoad().clickLocation();
+        mapPage.allowPermessions().scrollDown();
     }
 }

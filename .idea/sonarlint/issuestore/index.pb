@@ -51,3 +51,7 @@ U
 %src/main/java/pages/TransferPage.java,6\4\648bb69264bb88a87b0523ce3c072c9bc1654650
 O
 src/test/java/TransferTest.java,d\3\d3e998bf0d0360d6463366c848cc8543a81760ab
+M
+src/test/java/ScrollTest.java,7\7\77dcc06af2e5e825bff850607471ca5fcfc830a2
+T
+$src/main/java/pages/DepositPage.java,c\b\cbb01f7a09aedf16127be14fa53f410d87e6a2cf

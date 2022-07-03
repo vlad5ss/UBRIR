@@ -1,12 +1,13 @@
 package pages;
 
 import enums.Direction;
+import interfaces.Pagesss;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 
-public class FinancePage extends BasePage {
+public class FinancePage extends BasePage implements Pagesss {
     private AndroidDriver driver;
     @AndroidFindBy(id = "cb.ibank:id/saving_account_name")
     public  WebElement cardBtn;
@@ -16,8 +17,9 @@ public class FinancePage extends BasePage {
     public WebElement openDeposit;
 
     @Step("Click tab cart")
-    public void cickCart() {
+    public NewCreditPage cickCart() {
         buttons.clickElement(cardBtn);
+        return newCreditPage;
     }
 
     public FinancePage(AndroidDriver driver) {
@@ -25,23 +27,26 @@ public class FinancePage extends BasePage {
     }
 
     @Step("Click tab cart")
-    public void isVisible() {
+    public FinancePage isVisible() {
         buttons.isElementAvailable(cardBtn);
+        return this;
     }
 
     @Step("Click open Deposit")
-    public void clickOpenDeposit() {
+    public DepositPage clickOpenDeposit() {
         buttons.isElementAvailable(openDeposit);
         buttons.clickElement(openDeposit);
+        return depositPage;
     }
 
     @Step("Swipe right")
     public void swipeRight() {
-        screen.swipe(Direction.RIGHT);
+        screen.swipeScreenWithPressTime(Direction.LEFT, 1000, null);
     }
 
     @Step("Scrool to text")
-    public void scrolto(String text) {
+    public FinancePage scrolto(String text) {
         screen.scrollablePage(text);
+        return this;
     }
 }

@@ -26,8 +26,9 @@ public class MapPage extends BasePage {
     }
 
     @Step("Allow permessions")
-    public void allowPermessions() {
+    public MapPage allowPermessions() {
         buttons.clickElement(allowPermersion);
+        return this;
     }
 
     @Step("Scroll down")

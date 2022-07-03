@@ -10,15 +10,15 @@ public class HomePage extends BasePage {
     @AndroidFindBy(id = "cb.ibank:id/view_controller_demo_version")
     public static WebElement demoVersion;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_title")
-    private WebElement titleTxt;
+    public static WebElement titleTxt;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_login")
-    private  WebElement loginBtn;
+    public static WebElement loginBtn;
     @AndroidFindBy(id = "cb.ibank:id/view_controller_welcome_button_become_client")
-    private WebElement client;
+    public  WebElement client;
     @AndroidFindBy(id = "cb.ibank:id/include_department_addresses")
-    private WebElement locationBtn;
+    public WebElement locationBtn;
     @AndroidFindBy(xpath = "cb.ibank:id/include_currency_rates")
-    private WebElement ratesBtn;
+    public WebElement ratesBtn;
 
     public HomePage(AndroidDriver driver) {
         super(driver);
@@ -41,9 +41,10 @@ public class HomePage extends BasePage {
     }
 
     @Step("Wait load")
-    public void waitLoad() {
+    public HomePage waitLoad() {
         log.info("wait for page load");
         buttons.waitFirstPageLoad(loginBtn);
+        return this;
     }
 
     @Step("login button is displayed")

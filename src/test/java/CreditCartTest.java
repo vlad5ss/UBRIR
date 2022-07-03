@@ -7,8 +7,7 @@ public class CreditCartTest implements Pagesss {
 
     @Test
     public void mapTest() {
-        homePage.waitLoad();
-        homePage.login();
+        homePage.waitLoad().login();
         loginPage.cickTabCart();
         assertThat(creditCartPage.titleCartIsDisplayed()).as("title cart is dis").isTrue();
     }

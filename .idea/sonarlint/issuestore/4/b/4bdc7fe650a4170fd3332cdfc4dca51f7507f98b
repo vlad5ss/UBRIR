@@ -1,9 +1,9 @@
 
-L
-java:S1068	"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ8·Şùü‘0
-Q
-java:S3740	"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ8·Şùü‘0
+I
+java:S1444".Make this "public static tabLogin" field final(¤ĞÑ³8Øû¢í—0
 O
-java:S1444"-Make this "public static tabCart" field final(ŠúÄöÿÿÿÿÿ8Øû¢í—0
-K
-java:S1444".Make this "public static tabLogin" field final(¤ĞÑ³8Øû¢í—0
+java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ8·Şùü‘0
+J
+java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ8·Şùü‘0
+M
+java:S1444"-Make this "public static tabCart" field final(ŠúÄöÿÿÿÿÿ8Øû¢í—0

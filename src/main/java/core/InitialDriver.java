@@ -1,8 +1,10 @@
 package core;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
@@ -40,5 +42,21 @@ public class InitialDriver {
         cap.setCapability("autoGrandPermission", true);
         cap.setCapability("appPackage", CAP.myAppPackage());
         cap.setCapability("appActivity",CAP.myAppActivity());
+    }
+
+
+    public static AndroidDriver<MobileElement> getAndroidDriver() {
+        setCapabilities();
+        try {
+            if (cap.getPlatform().equals(Platform.ANDROID)) {
+                return (AndroidDriver<MobileElement>) getDriver();
+            } else {
+                throw new Exception();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            log.error(String.format("Invalid platform in caps: %s", cap.getPlatform().name()));
+        }
+        return null;
     }
 }

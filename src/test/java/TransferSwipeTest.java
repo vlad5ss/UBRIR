@@ -7,7 +7,7 @@ public class TransferSwipeTest implements Pagesss {
     public void swipeTest() throws InterruptedException {
         homePage.waitLoad().demoClick();
         Thread.sleep(40000);
-        financePage.isVisible().swipeRight();
+        financePage.isVisible().swipeLeft();
         Thread.sleep(40000);
     }
 }

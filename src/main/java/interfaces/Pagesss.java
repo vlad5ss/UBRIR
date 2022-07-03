@@ -12,4 +12,6 @@ public interface Pagesss {
     NewCreditPage newCreditPage = new NewCreditPage(InitialDriver.getDriver());
     TransferPage transferPage = new TransferPage(InitialDriver.getDriver());
     DepositPage depositPage = new DepositPage(InitialDriver.getDriver());
+    DemoAccountPage demoAccountPage = new DemoAccountPage(InitialDriver.getDriver());
+    DemoCardPage demoCardPage = new DemoCardPage(InitialDriver.getDriver());
 }

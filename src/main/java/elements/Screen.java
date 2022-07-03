@@ -13,6 +13,8 @@ import org.openqa.selenium.Point;
 
 import java.time.Duration;
 
+import static elements.Waiters.getWaiters;
+
 
 public class Screen {
     private AndroidDriver driver = InitialDriver.getDriver();
@@ -24,7 +26,7 @@ public class Screen {
     }
 
     public void swipeScreenWithPressTime(Direction dir, int pressTime, Point pointStart) {
-        final int ANIMATION_TIME = 200;
+        final int ANIMATION_TIME = 300;
 
         Point pointEnd;
         PointOption pointOptionStart, pointOptionEnd;
@@ -32,6 +34,7 @@ public class Screen {
         int edgeBorder = 10;
 
         Dimension dims = driver.manage().window().getSize();
+        getWaiters().waitSomeSecond(1);
 
         if (pointStart == null) {
             pointStart = new Point(dims.width / 2, dims.height / 2);

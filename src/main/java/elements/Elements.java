@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidElement;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -75,4 +76,10 @@ public class Elements {
         wait.until(ExpectedConditions.visibilityOf(element));
 
     }
+
+    public void sendKeyFromAction(String key) {
+        Actions action = new Actions(driver);
+        action.sendKeys(key).perform();
+    }
+
 }

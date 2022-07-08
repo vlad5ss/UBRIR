@@ -1,13 +1,13 @@
 
+f	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
 Q
-java:S3740G"/Provide the parametrized type for this generic.(ı…¹¯ıÿÿÿÿ8û€Ç’0
-f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
-R
-java:S1191"5Use classes from the Java API instead of Sun classes.(ÉûØæ8û€Ç’0
-j	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íş–Î8û€Ç’0
-Q
-java:S3740G"/Provide the parametrized type for this generic.(ı…¹¯ıÿÿÿÿ8û€Ç’0
+java:S3740H"/Provide the parametrized type for this generic.(ı…¹¯ıÿÿÿÿ8û€Ç’0
+f	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
 E
-java:S3740"/Provide the parametrized type for this generic.(ËìäÏ
-f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
-f	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
+java:S3740"/Provide the parametrized type for this generic.(ËìäÏ
+f	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÔœ–
+Q
+java:S3740H"/Provide the parametrized type for this generic.(ı…¹¯ıÿÿÿÿ8û€Ç’0
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(ÉûØæ8û€Ç’0
+j	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íş–Î8û€Ç’0

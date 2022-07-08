@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 
 public class FinancePage extends BasePage implements Pagesss {
 
-    private final Point paymentsPoint = screen.setPointForSwipe(1.25F, 2F);
+    private final Point swipePoint =new  Point(924, 576);
     private AndroidDriver driver;
     @AndroidFindBy(id = "cb.ibank:id/saving_account_name")
     public  WebElement cardBtn;
@@ -53,7 +53,7 @@ public class FinancePage extends BasePage implements Pagesss {
 
     @Step("Swipe right")
     public void swipeLeft() {
-        screen.swipeScreenWithPressTime(Direction.LEFT, 200, null);
+        screen.swipeScreenWithPressTime(Direction.LEFT, 2000, swipePoint);
     }
 
     @Step("Scrool to text")

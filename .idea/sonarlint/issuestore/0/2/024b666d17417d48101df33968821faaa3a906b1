@@ -1,24 +1,24 @@
 
-@
-java:S1659",Declare "pointOptionEnd" on a separate line.(ö¶‘®
-B
-java:S3740"/Provide the parametrized type for this generic.(²ªý~
-C
-java:S3740"/Provide the parametrized type for this generic.(ö¶‘®
-^
-java:S1854">Remove this useless assignment to local variable "windowSize".(µ€±Âøÿÿÿÿ8§ÍÄÄ’0
-O
-java:S1481"/Remove this unused "windowSize" local variable.(µ€±Âøÿÿÿÿ8§ÍÄÄ’0
-Q	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¢Î»þÿÿÿÿ
-C
-java:S3740"/Provide the parametrized type for this generic.(ö¶‘®
-C
-java:S3740"/Provide the parametrized type for this generic.(ËìäÏ
-J
-java:S3740"/Provide the parametrized type for this generic.(ŠçÕ™8§ÍÄÄ’0
+N
+java:S1172n"1Remove this unused method parameter "percentage".(ÙÓñ8ò°€­œ0
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Õ¢Î»þÿÿÿÿ8ò°€­œ0
 L
-java:S1172"1Remove this unused method parameter "percentage".(ÙÓñ8§ÍÄÄ’0
-J
-java:S3740"/Provide the parametrized type for this generic.(ŠçÕ™8§ÍÄÄ’0
-Z
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+java:S3740 "/Provide the parametrized type for this generic.(ö¶‘®8ò°€­œ0
+L
+java:S3740p"/Provide the parametrized type for this generic.(ŠçÕ™8ò°€­œ0
+K
+java:S3740@"/Provide the parametrized type for this generic.(²ªý~8ò°€­œ0
+L
+java:S3740p"/Provide the parametrized type for this generic.(ŠçÕ™8ò°€­œ0
+L
+java:S3740"/Provide the parametrized type for this generic.(ËìäÏ8ò°€­œ0
+Q
+java:S1481o"/Remove this unused "windowSize" local variable.(µ€±Âøÿÿÿÿ8ò°€­œ0
+I
+java:S1659 ",Declare "pointOptionEnd" on a separate line.(ö¶‘®8ò°€­œ0
+c
+java:S2142L"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ò°€­œ0
+`
+java:S1854o">Remove this useless assignment to local variable "windowSize".(µ€±Âøÿÿÿÿ8ò°€­œ0
+L
+java:S3740 "/Provide the parametrized type for this generic.(ö¶‘®8ò°€­œ0

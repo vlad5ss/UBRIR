@@ -1,8 +1,13 @@
 import interfaces.Pagesss;
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.testng.annotations.Test;
 
 public class TransferSwipeTest implements Pagesss {
 
+
+    @Owner(value = "Tylkovich Uladzislau")
+    @Description("Swipe test")
     @Test
     public void swipeTest() throws InterruptedException {
         homePage.waitLoad().demoClick();

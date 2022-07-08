@@ -1,0 +1,15 @@
+
+Q
+java:S1068"/Remove this unused "LIMITS_TEXT" private field.(ÖÜ¸óùÿÿÿÿ8¾š¹ œ0
+	java:S116"^Rename this field "SET_PIN_CODE_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Äùşøÿÿÿÿ8äÂ‰ œ0
+w	java:S116&"VRename this field "TARIFF_PLAN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³øšüÿÿÿÿ8äÂ‰ œ0
+‚	java:S116"fRename this field "CARD_DETAILS_CVC_CVV_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îì’ó8äÂ‰ œ0
+|	java:S116"[Rename this field "CVC2_CVV2_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ª¾ûıÿÿÿÿ8äÂ‰ œ0
+~	java:S116 "]Rename this field "CARD_NUMBER_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§—‘áûÿÿÿÿ8äÂ‰ œ0
+€	java:S116"_Rename this field "EDIT_PIN_CODE_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ı¹úÿÿÿÿ8äÂ‰ œ0
+y	java:S116"XRename this field "ACTIONS_BLOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‡´½üÿÿÿÿ8äÂ‰ œ0
+t	java:S116"XRename this field "LIMITS_BUTTON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙğÉ©8äÂ‰ œ0
+z	java:S116"^Rename this field "CASHBACK_CONDITIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û„Á8äÂ‰ œ0
+v	java:S116""[Rename this field "COPY_CARD_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ÉA8äÂ‰ œ0
+q	java:S116$"URename this field "CARD_VALUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÀªÌ8äÂ‰ œ0
+X	java:S125L"<This block of commented-out lines of code should be removed.(à©³•8³´ä œ0

@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+    <test name="FirstTest">
+        <classes>
+            <class name="FirstTest"/>
+        </classes>
+    </test>
+
+    <test name="MapTest">
+        <classes>
+            <class name="MapTest"/>
+        </classes>
+    </test>
+
+    <test name="SalaryTest" >
+        <classes>
+            <class name="SalaryTest"/>
+        </classes>
+    </test>
+
+    <test name="ScrollTest">
+        <classes>
+            <class name="ScrollTest"/>
+        </classes>
+    </test>
+
+    <test name="FavoritesSearchTest">
+        <classes>
+            <class name="T"/>
+        </classes>
+    </test>
+
+    <test name="FavoritesSellersTest">
+        <classes>
+            <class name="TransferTest"/>
+        </classes>
+    </test>
+
+    <test name="FavoritesAdsTest">
+        <classes>
+            <class name="TransferSwipeTest"/>
+        </classes>
+    </test>
+</suite>

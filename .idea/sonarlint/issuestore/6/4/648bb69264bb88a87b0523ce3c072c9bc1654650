@@ -1,11 +1,11 @@
 
-ƒ
-java:S1845"hRename method "transfer" to prevent any misunderstanding/clash with field "transfer" defined on line 11.(´¾Â·8±×î—0
 C
 java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ
-N
-java:S1444".Make this "public static transfer" field final(ÍŒ¼‚şÿÿÿÿ8¹âÖî—0
-G
-java:S1444",Make this "public static dialog" field final(Şëæ—8ğ÷’ï—0
 H
 java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ
+ƒ
+java:S1845"hRename method "transfer" to prevent any misunderstanding/clash with field "transfer" defined on line 11.(´¾Â·8±×î—0
+G
+java:S1444",Make this "public static dialog" field final(Şëæ—8ğ÷’ï—0
+N
+java:S1444".Make this "public static transfer" field final(ÍŒ¼‚şÿÿÿÿ8¹âÖî—0

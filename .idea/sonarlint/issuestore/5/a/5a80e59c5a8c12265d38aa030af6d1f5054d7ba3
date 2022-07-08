@@ -1,13 +1,16 @@
 
-D
-java:S3740"/Provide the parametrized type for this generic.(¬¡­
-E
-java:S3740"/Provide the parametrized type for this generic.(ŠÛíÔ
 U
-java:S1118":Add a private constructor to hide the implicit public one.(¿ÉÏşÿÿÿÿ
+java:S1118":Add a private constructor to hide the implicit public one.(¿ÉÏşÿÿÿÿ
 m
-java:S3252%"WUse static access with "org.openqa.selenium.remote.CapabilityType" for "PLATFORM_NAME".(İ†ì
+java:S3252'"WUse static access with "org.openqa.selenium.remote.CapabilityType" for "PLATFORM_NAME".(İ†ì
 J
-java:S3740"/Provide the parametrized type for this generic.(î¶¢üÿÿÿÿ
+java:S3740"/Provide the parametrized type for this generic.(î¶¢üÿÿÿÿ
+D
+java:S3740 "/Provide the parametrized type for this generic.(¬¡­
+R
+java:S19054"0Remove this unnecessary cast to "AndroidDriver".(ÆïÌÄûÿÿÿÿ8°œÄ œ0
+E
+java:S3740"/Provide the parametrized type for this generic.(ŠÛíÔ
 J
-java:S3740 "/Provide the parametrized type for this generic.(ì…ŸÉøÿÿÿÿ
+java:S3740""/Provide the parametrized type for this generic.(ì…ŸÉøÿÿÿÿ
+a	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe8°œÄ œ0

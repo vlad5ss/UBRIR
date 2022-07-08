@@ -1,7 +1,9 @@
 
+N
+java:S1444"1Make this "public static savingMoney" field final(å¼ò—8¤öÅõ›0
+]
+java:S1128"@Remove this unused import 'io.appium.java_client.MobileElement'.(°¸ÀÚ8Î¦Ÿœ0
+Q
+java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ8¤öÅõ›0
 L
-java:S1444"1Make this "public static savingMoney" field final(å¼ò—8œ½“˜0
-H
-java:S3740"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ
-C
-java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ
+java:S1068"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ8¤öÅõ›0

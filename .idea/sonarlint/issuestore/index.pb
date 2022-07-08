@@ -1,6 +1,4 @@
 
-T
-$src/test/resources/allure.properties,2\6\26ae74a0ad06eaade487fd827918b6550e8d25ce
 S
 #src/test/resources/log4j.properties,2\e\2e7233cc442dd22e890222643b79a01460cbb1d7
 7
@@ -55,3 +53,15 @@ M
 src/test/java/ScrollTest.java,7\7\77dcc06af2e5e825bff850607471ca5fcfc830a2
 T
 $src/main/java/pages/DepositPage.java,c\b\cbb01f7a09aedf16127be14fa53f410d87e6a2cf
+[
++src/main/java/pages/DemoRequisitesPage.java,6\e\6e87230c2c1b9f965f96d1077036ad97242e738a
+S
+#src/main/java/elements/Waiters.java,b\2\b2bd28115abcb91524ae30c381565b2ce17949e2
+U
+%src/main/java/pages/DemoCardPage.java,c\0\c0ab092b42493f0a0c357511b6dac9b05d6aa139
+X
+(src/main/java/pages/DemoAccountPage.java,2\8\28907b5df7ab4f5afdc24987ad728e7a9fce3eb1
+T
+$src/test/java/TransferSwipeTest.java,9\3\939a183be7927280fd51a022d3a0b8cd3b9afe17
+M
+src/test/java/SalaryTest.java,3\e\3e6958f1f578a169fb27268cf469ccdb5170ffac

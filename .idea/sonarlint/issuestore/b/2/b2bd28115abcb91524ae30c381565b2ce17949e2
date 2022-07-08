@@ -1,0 +1,15 @@
+
+T
+java:S2629o"7Use the built-in formatting to construct this argument.(åªåæ8úûÈ œ0
+^
+java:S3457o"AFormat specifiers should be used instead of string concatenation.(åªåæ8úûÈ œ0
+Y
+java:S1854s"<Remove this useless assignment to local variable "pageName".(í§äÕ8¶²È œ0
+Y
+java:S2629e"7Use the built-in formatting to construct this argument.(¨Ãšíıÿÿÿÿ8úûÈ œ0
+J
+java:S1481s"-Remove this unused "pageName" local variable.(í§äÕ8¶²È œ0
+c
+java:S3457e"AFormat specifiers should be used instead of string concatenation.(¨Ãšíıÿÿÿÿ8úûÈ œ0
+]
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

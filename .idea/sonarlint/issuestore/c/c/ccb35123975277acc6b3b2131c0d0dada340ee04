@@ -1,7 +1,9 @@
 
-P
-java:S1444".Make this "public static newMoney" field final(¡ˆÂËıÿÿÿÿ8•Æî—0
-E
-java:S1068	"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ
 J
-java:S3740	"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ
+java:S3740
+"/Provide the parametrized type for this generic.(Òöïóûÿÿÿÿ
+E
+java:S1068
+"*Remove this unused "driver" private field.(Òöïóûÿÿÿÿ
+P
+java:S1444".Make this "public static newMoney" field final(¡ˆÂËıÿÿÿÿ8•Æî—0

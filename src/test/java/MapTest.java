@@ -1,16 +1,15 @@
+import Base.BaseTest;
 import interfaces.Pagesss;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.testng.annotations.Test;
 
-public class MapTest implements Pagesss {
+public class MapTest extends BaseTest implements Pagesss {
 
-
-    @Owner(value = "Tylkovich Uladzislau")
     @Description("Map test")
     @Test
     public void mapTest() {
-        homePage.waitLoad().clickLocation();
+       homePage.waitLoad().clickLocation();
         mapPage.allowPermessions().scrollDown();
     }
 }

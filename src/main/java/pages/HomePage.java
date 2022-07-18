@@ -35,9 +35,10 @@ public class HomePage extends BasePage {
     }
 
     @Step("Demo click")
-    public void demoClick() {
-        log.info("democlick");
+    public HomePage demoClick() {
+        log.info("demo click");
         buttons.clickElement(demoVersion);
+        return this;
     }
 
     @Step("Wait load")

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NGf">
+    <test name="SalaryTest">
+        <classes>
+            <class name="demoversion.SalaryTest" />
+        </classes>
+    </test>
+    <test name="ScrollTest">
+        <classes>
+            <class name="demoversion.ScrollTest" />
+        </classes>
+    </test>
+    <test name="TransferSwipeTest">
+        <classes>
+            <class name="demoversion.TransferSwipeTest" />
+        </classes>
+    </test>
+    <test name="TransferTest">
+        <classes>
+            <class name="demoversion.TransferTest" />
+        </classes>
+    </test>
+</suite>

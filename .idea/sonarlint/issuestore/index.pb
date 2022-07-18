@@ -47,10 +47,6 @@ V
 &src/main/java/pages/NewCreditPage.java,c\c\ccb35123975277acc6b3b2131c0d0dada340ee04
 U
 %src/main/java/pages/TransferPage.java,6\4\648bb69264bb88a87b0523ce3c072c9bc1654650
-O
-src/test/java/TransferTest.java,d\3\d3e998bf0d0360d6463366c848cc8543a81760ab
-M
-src/test/java/ScrollTest.java,7\7\77dcc06af2e5e825bff850607471ca5fcfc830a2
 T
 $src/main/java/pages/DepositPage.java,c\b\cbb01f7a09aedf16127be14fa53f410d87e6a2cf
 [
@@ -61,7 +57,3 @@ U
 %src/main/java/pages/DemoCardPage.java,c\0\c0ab092b42493f0a0c357511b6dac9b05d6aa139
 X
 (src/main/java/pages/DemoAccountPage.java,2\8\28907b5df7ab4f5afdc24987ad728e7a9fce3eb1
-T
-$src/test/java/TransferSwipeTest.java,9\3\939a183be7927280fd51a022d3a0b8cd3b9afe17
-M
-src/test/java/SalaryTest.java,3\e\3e6958f1f578a169fb27268cf469ccdb5170ffac
